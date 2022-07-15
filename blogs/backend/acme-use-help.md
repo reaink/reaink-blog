@@ -24,7 +24,7 @@ curl  https://get.acme.sh | sh
 
 下面将使用 HTTP 方式来申请证书文件，也是官方推荐的一种，可以自动检测过期并自动更新。
 
-> 注：若您可用dns验证，推荐使用 zerossl 来申请证书，因为它支持泛域名，将www.mydomain.com 替换为 *.mydomain.com 即可
+> 注：若您可用dns验证，推荐使用 zerossl 来申请证书，因为它支持泛域名，将www.mydomain.com 替换为 *.mydomain.com ，移除 `--webroot path`选项并添加 `--dns dns_<服务商ali/dp等>`即可
 
 ```bash
 acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --webroot  /home/wwwroot/mydomain.com/
