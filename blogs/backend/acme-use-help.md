@@ -24,8 +24,10 @@ curl  https://get.acme.sh | sh
 
 下面将使用 HTTP 方式来申请证书文件，也是官方推荐的一种，可以自动检测过期并自动更新。
 
+> 推荐使用 zerossl 来申请证书，因为它支持泛域名
+
 ```bash
-acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --webroot  /home/wwwroot/mydomain.com/
+acme.sh  --issue  -d mydomain.com -d *.mydomain.com  --webroot  /home/wwwroot/mydomain.com/
 ```
 
 > 将 mydomain.com 替换为你的域名，将/home/wwwroot/mydomain.com/替换为你网站静态文件所在位置
