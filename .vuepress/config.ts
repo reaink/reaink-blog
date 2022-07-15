@@ -7,7 +7,8 @@ export default defineUserConfig({
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
-    author: 'rea',
+    author: 'Rea',
+    authorAvatar: '/logo.png',
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
     docsBranch: 'main',
     docsDir: 'example',
@@ -24,14 +25,13 @@ export default defineUserConfig({
         }
       ]
     },
-    navbar:
-    [
+    navbar: [
       { text: '首页', link: '/' },
       { text: '分类', link: '/categories/qianduan/1/' },
       { text: '标签', link: '/tags/JavaScript/1/' },
-      { text: '联系', children: [
-        { text: 'Github', link: 'https://github.com/reaink' },
-        { text: 'Twitter', link: 'https://twitter.com/realqshu' },
+      { text: '开源', children: [
+        { text: '星空输入法', link: 'https://xkinput.github.io' },
+        { text: '键道议题', link: 'https://jd.rea.ink' },
       ] },
     ],
     commentConfig: {
