@@ -4,7 +4,6 @@ date: 2019-03-24 23:01:51
 categories: ['前端']
 tags: ['JavaScript', '日常']
 ---
-
 ## js 中给字符串数组快速取整
 
 ```javascript

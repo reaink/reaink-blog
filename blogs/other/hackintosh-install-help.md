@@ -3,7 +3,6 @@ title: hackintosh安装与设置教程整理
 date: 2020-3-22 19:52:00
 categories: ['其他']
 tags: ['Mac', '系统', '教程']
-hideComments: false
 ---
 > Hackintosh 顾名思义黑苹果系统，在尝试过 windows 与 Linux 系统后，再试试这个系统简直神清气爽，建议大家也试试。在下面将给大家简述安装的流程。
 

@@ -42,7 +42,6 @@ export default defineUserConfig({
         placeholder: '填写邮箱可以收到回复提醒哦！',
         verify: true,
         notify: true,
-        hideComments: true,
       }
     },
     footer: {

@@ -82,7 +82,7 @@ export const apolloClient = createClient({
 
 `main.ts`
 
-```ts {6}
+```ts
 import { apolloClient } from './plugins/gql'
 
 export function createApp() {
@@ -98,7 +98,7 @@ export function createApp() {
 ## 使用Villus请求
 
 1. 在vue文件中使用
-   ```vue {11-15}
+   ```vue
    <div v-if="isFetching">Loading...</div>
      <div v-else-if="error">
        oh no ...{{ error }}

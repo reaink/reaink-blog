@@ -3,7 +3,6 @@ title: acme.sh 搭配 nginx 实现自动更新证书
 date: 2020-10-07 23:47:45
 categories: ['后端']
 tags: ['SSL', '证书']
-hideComments: false
 ---
 使用[acme.sh](https://github.com/acmesh-official/acme.sh)申请 Let's Encrypt 网站证书
 
