@@ -9,7 +9,7 @@ export default defineUserConfig({
     logo: '/logo.png',
     author: 'Rea',
     authorAvatar: '/logo.png',
-    docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
+    docsRepo: 'https://github.com/reaink/reaink-blog',
     docsBranch: 'main',
     docsDir: 'example',
     lastUpdatedText: '最后更新',
@@ -30,8 +30,8 @@ export default defineUserConfig({
       { text: '分类', link: '/categories/qianduan/1/' },
       { text: '标签', link: '/tags/JavaScript/1/' },
       { text: '开源', children: [
-        { text: '星空输入法', link: 'https://xkinput.github.io' },
         { text: '键道议题', link: 'https://jd.rea.ink' },
+        { text: '星空输入法', link: 'https://xkinput.github.io' },
       ] },
     ],
     commentConfig: {
