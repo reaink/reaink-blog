@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "packages": {
+    "vuepress-theme-reco": {
+      "version": "2.0.0-beta.29",
+      "signature": "d5f53f3a6de46e456a8d2bfacb22b8ae",
+      "file": true,
+      "replaced": "2.0.0-beta.29"
+    }
+  }
+}
