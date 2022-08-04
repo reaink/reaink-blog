@@ -93,6 +93,12 @@ description: 友情链接推荐
       bio: '',
       status: false,
     },
+    {
+      name: `澈丹大叔`,
+      avatar: 'https://marx.run/images/R-C_1650201697744.jpg',
+      href: 'https://marx.run/',
+      bio: '不积跬步，无以至千里。不积小流，无以成江海',
+    },
   ]
 
   function shuffle(arr) {
