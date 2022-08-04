@@ -99,6 +99,24 @@ description: 友情链接推荐
       href: 'https://marx.run/',
       bio: '不积跬步，无以至千里。不积小流，无以成江海',
     },
+    {
+      name: `单单`,
+      avatar: 'https://noif.cc/avatar.webp',
+      href: 'https://noif.cc/',
+      bio: '人生没有如果，只有后果和结果。',
+    },
+    {
+      name: `酥梨笔记`,
+      avatar: 'https://zodensu.github.io/avatar.jpg',
+      href: 'https://zodensu.github.io/',
+      bio: 'A schön soul of this word.',
+    },
+    {
+      name: `顾恒生`,
+      avatar: 'http://xlboy.cn/service/tx.png',
+      href: 'http://xlboy.cn/',
+      bio: '红尘道?道向何方',
+    },
   ]
 
   function shuffle(arr) {
