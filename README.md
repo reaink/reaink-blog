@@ -9,16 +9,6 @@ bannerBrand:
   heroText: "Rea's Home"
   tagline: "
 清风皓月，光景常新。
-  \n 
-  \n 
- ▁            ✦                          ✧      ☽ ✦  \n
- █  ✦  ✧ ✦▃            ✦✧                            \n
- █        █   ▆                 ✧          ✦         \n
- █▄    ✧  █ ▄ █▄   ✧ ✧         ▄               ✧     \n
- ██ ▇   ▇ █ █▇██    ▇          █   ▇▇▇         ✧   ▇▇\n
-▁██▁█▁▁▅█▅█▁████▁▅▁▁█▅▁▅▅▁▅▁▁▁▅█▁▁▁███▅▁▅▅▁▁▅▁▅▅▁▅▁██\n
-by            @reaink 2021 GitHub Skyline            \n
-\n
 "
   buttons:
     - { text: 'Github', link: 'https://github.com/reaink' }
@@ -29,7 +19,7 @@ blog:
     - { icon: 'BrandTwitter', link: 'https://twitter.com/realqshu' }
     - { icon: 'Mail', link: 'mailto:hi@rea.ink' }
 footer:
-  record: 陕ICP备19019970号
+  record: 陕ICP备2021005722号-1
   recordLink: 'http://beian.miit.gov.cn/'
   startYear: 2018
 ---
